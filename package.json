@@ -4,7 +4,8 @@
   "description": "An app to track calories, meals and workouts",
   "main": "app.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
+    "start":"webpack-dev-server",
     "server": "webpack serve"
   },
   "author": "hamid rezai",
